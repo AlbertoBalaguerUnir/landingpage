@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Alberto Balaguer Gómez. Lenguaje de marcas, 2025-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Libreria de iconos web https://iconic.io -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Landing Page Web</title>
+</head>
+<body>
+    <section>
+        <div class="circulo"></div>
+        <div class="circulo2"></div>
+        <header>
+            <a href="index.html" class="logo">Alberto Balaguer</a>
+            <ul class="navbar">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="artbio.html">Art Bio</a>
+                </li>
+                <li>
+                    <a href="#">Proyectos</a>
+                    <ul>
+                        <li><a href="dgrafico.html">Diseño gráfico</a></li>
+                        <li><a href="3Drendering.html">Rendering</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </header>
+        <div >
+            <form action="formulario">
+                <div class="cabeceraForm">
+                    <h3>Formulario de contacto</h3>
+                </div>
+                <fieldset class="DatosPersonales">
+                    <legend>Datos personales</legend>
+                    <label>Nombre completo:
+                        <input type="text" name="nombre" placeholder="Nombre completo" required>
+                    </label>
+                    <label>Email:
+                        <input type="email" name="email" placeholder="Correo electrónico" required>
+                    </label>
+                    <label>Teléfono:
+                        <input type="tel" name="telefono" placeholder="Teléfono de contacto">
+                    </label>
+                    <label>¿Representas a un medio o empresa?
+                        <input type="text" name="medio" placeholder="Nombre del medio o empresa">
+                    </label>
+                </fieldset>
+            
+                <fieldset class="Informacion">
+                    <legend>Cuerpo del mensaje</legend>
+                    <label>
+                        <textarea name="mensaje" placeholder="Escriba aquí el mensaje"></textarea>
+                    </label>
+                    <label>Referente a:
+                        <input type="text" name="tema mensaje" placeholder="tema del mensaje" required>
+                    </label>
+                </fieldset>
+            
+                <fieldset class="Confirmacion">
+                    <legend>Confirmación</legend>
+                    <label>
+                        <input type="checkbox" name="privacidad" required> Acepto la política de privacidad y el envío de mis datos.
+                    </label>
+                </fieldset>
+                <div class="boton">
+                    <button type="submit">Enviar mensaje</button>
+                </div>
+            </form>
+        </div>
+        <div class="copyright">
+            <p>&copy;All content © Alberto Balaguer. Lenguaje de Marcas 2025.</p>
+        </div>
+        <ul class="redesSociales">
+            <li>
+                <a href="#">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <ion-icon name="globe-outline"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+        </ul>
+    </section>
+    
+</body>
+</html>
